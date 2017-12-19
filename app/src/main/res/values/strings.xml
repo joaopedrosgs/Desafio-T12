@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DesafioT12</string>
+    <string name="bad_connection_string">Internet indisponível e sem cache local, logo, não temos conteúdo para exibir.</string>
+</resources>

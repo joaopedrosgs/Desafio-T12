@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e53935"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context="com.example.pedro.desafiot12.activities.BadInternetActivity">
+
+    <ImageView
+        android:id="@+id/sad_droid"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.7"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/grumpy_cat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.3"
+
+        android:shadowColor="#41000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="0.2"
+        android:text="@string/bad_connection_string"
+        android:textAlignment="center" />
+
+</LinearLayout>
